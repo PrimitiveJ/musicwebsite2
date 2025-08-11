@@ -11,7 +11,7 @@ export default function Home() {
             Personalized music lessons for all ages, beginner to advanced. We are committed to bringing quality musical education to the Triangle area of North Carolina!
           </p>
           <a
-            href="/lessons"
+            href="/book"
             className="hero-btn"
           >
             Book a Lesson
