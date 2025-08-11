@@ -20,6 +20,7 @@ import SongwritingLesson from "./pages/lessons/songwriting"
 import SynthSoundDesignLesson from "./pages/lessons/synth-sound-design"
 import Policies from "./pages/Policies"
 
+
 export default function App() {
   return (
     <Router>
