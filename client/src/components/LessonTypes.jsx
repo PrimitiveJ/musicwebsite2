@@ -40,17 +40,18 @@ import { Link, useNavigate } from "react-router-dom";
 
 
 
+
 export default function LessonTypes() {
   const navigate = useNavigate();
   return (
     <section className="py-10 sm:py-16 px-2 sm:px-4 bg-black w-full flex flex-col items-center justify-center min-h-[60vh]">
-      <div className="max-w-6xl w-full flex flex-col items-center">
+      <div className="max-w-6xl w-full mx-auto flex flex-col items-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-10 text-center">Offering Lessons in a variety of disciplines</h2>
         <div className="lesson-row grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full">
           {lessons.map(({ title, description }) => (
             <div
               key={title}
-              className="lesson-box bg-gray-900 border border-white rounded-lg p-6 flex flex-col items-center shadow hover:scale-105 transition cursor-pointer"
+              className="lesson-box bg-gray-900 border border-white rounded-lg p-6 flex flex-col items-center shadow hover:scale-105 transition cursor-pointer mx-auto"
               onClick={() => navigate("/book", { state: { lessonType: title } })}
             >
               <h3 className="lesson-title text-lg sm:text-xl font-semibold text-white mb-2 text-center">{title}</h3>
