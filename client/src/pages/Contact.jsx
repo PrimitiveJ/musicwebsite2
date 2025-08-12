@@ -71,7 +71,7 @@ export default function Contact() {
               className="w-full p-3 rounded-lg bg-black text-white border-2 border-gray-700 focus:border-white focus:ring-2 focus:ring-white transition outline-none"
             />
             {error && <p className="text-red-400 text-sm text-center">{error}</p>}
-            <button type="submit" className="w-full bg-white text-black font-bold py-3 px-4 rounded-lg mt-2 hover:bg-gray-200 transition text-lg tracking-wide shadow">Send Message</button>
+            <button type="submit" className="bg-white text-black font-bold py-2 px-6 rounded shadow hover:bg-gray-200 transition w-full sm:w-auto text-center">Send Message</button>
           </form>
         )}
       </div>
