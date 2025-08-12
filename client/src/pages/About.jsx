@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -31,7 +32,7 @@ export default function About() {
           <p className="text-xl md:text-2xl text-blue-200 text-center m-0 hero-desc" style={{maxWidth: '650px'}}>
             My teaching style is rooted in <span className="font-bold text-blue-400">patience, encouragement, and passion</span> for helping others discover their own musical voice. Whether you are just starting out or looking to refine your skills, I am dedicated to guiding you on your musical journey.
           </p>
-          <a href="/lessons" className="hero-btn m-0">Book a Lesson</a>
+          <Link to="/lessons" className="hero-btn m-0">Book a Lesson</Link>
         </div>
       </div>
     </div>
