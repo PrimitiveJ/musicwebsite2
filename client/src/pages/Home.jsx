@@ -10,12 +10,12 @@ export default function Home() {
           <p className="hero-desc">
             Personalized music lessons for all ages, beginner to advanced. We are committed to bringing quality musical education to the Triangle area of North Carolina!
           </p>
-          <a
-            href="/book"
-            className="hero-btn"
-          >
-            Book a Lesson
-          </a>
+         <Link
+              to="/book"
+              className="hero-btn"
+            >
+              Book a Lesson
+            </Link>
         </div>
       </section>
 
