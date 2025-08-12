@@ -47,7 +47,7 @@ export default function LessonTypes() {
     <section className="py-10 sm:py-16 px-2 sm:px-4 bg-black w-full flex flex-col items-center justify-center min-h-[60vh]">
       <div className="max-w-6xl w-full mx-auto flex flex-col items-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-10 text-center">Offering Lessons in a variety of disciplines</h2>
-        <div className="lesson-row grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full">
+  <div className="lesson-row grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
           {lessons.map(({ title, description }) => (
             <div
               key={title}
